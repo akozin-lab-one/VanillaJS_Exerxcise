@@ -1,0 +1,66 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.nav-bar {
+    display: flex;
+    height: 40px;
+    justify-content: space-evenly;
+    border-bottom: 1px solid;
+    box-shadow: 2px 3px rgb(109, 104, 104);
+}
+
+.box-one {
+    margin-top: 10px;
+    font-size: 15px;
+    color: aqua;
+    letter-spacing: 2px;
+}
+
+.box-two {
+    margin-top: 10px;
+    letter-spacing: 2px;
+}
+
+.box-two span {
+    color: aqua;
+}
+
+.container {
+    width: 300px;
+    position: absolute;
+    bottom: 50%;
+    right: 35%;
+}
+
+.text-box {
+    background-color: black;
+    width: 250px;
+    color: white;
+    font-size: 20px;
+    padding: 10px;
+    border: none;
+    border-radius: 3px;
+    margin: 0 auto;
+}
+
+.text-box span {
+    color: rgb(49, 194, 122);
+}
+
+.container button {
+    background-color: whitesmoke;
+    border: 1px solid rgb(61, 59, 59);
+    font-weight: lighter;
+    width: 70px;
+    height: 30px;
+    text-transform: uppercase;
+    border-radius: 3px;
+    position: relative;
+    top: 15px;
+    left: 34%;
+    font-size: 11px;
+    cursor: pointer;
+}
