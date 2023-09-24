@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.counter-box {
+    width: 300px;
+    height: 200px;
+    position: absolute;
+    left: 30%;
+    top: 30%;
+}
+
+.counter-box h2 {
+    text-align: center;
+    font-size: 40px;
+}
+
+.counter-box span {
+    font-size: 100px;
+    text-align: center;
+    width: 300px;
+    display: inline-block;
+}
+
+.btn-box {
+    margin: 10px auto;
+    width: 200px;
+}
+
+.btn {
+    width: 63px;
+    height: 30px;
+    font-size: small;
+    background-color: bisque;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+}
